@@ -1,5 +1,5 @@
 ## our workspace name
-workspace.name:			empty development workspace
+workspace.name:			OpenERP public development workspace
 workspace.sources:		{WORKSPACE_ROOT}/pkg
 
 ## SCM remotes
@@ -16,16 +16,16 @@ dpkg.sections:			main testing experimental
 dpkg.architectures:		all i386 amd64
 dpkg.target.cow:		/var/cache/pbuilder/base-{DISTRO}.cow
 
-dpkg.dist.precise.label:	Precise
-dpkg.dist.precise.description:	Precise Penguin
+dpkg.dist.precise.label:	Precise OpenERP
+dpkg.dist.precise.description:	Precise Penguin / OpenERP
 dpkg.dist.precise.components:	main universe multiverse restricted
 
-dpkg.dist.raring.label:		Raring
-dpkg.dist.raring.description:	Raring Ringtail
+dpkg.dist.raring.label:		Raring OpenERP
+dpkg.dist.raring.description:	Raring Ringtail / OpenERP
 dpkg.dist.raring.components:	main universe multiverse restricted
 
-dpkg.dist.lucid.label:		Lucid
-dpkg.dist.lucid.description:	Lucid Lynx
+dpkg.dist.lucid.label:		Lucid OpenERP
+dpkg.dist.lucid.description:	Lucid Lynx / OpenERP
 dpkg.dist.lucid.components:	main universe multiverse restricted
 
 dpkg.dist.raring-i386.label:		Raring i386
